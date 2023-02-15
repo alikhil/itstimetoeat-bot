@@ -1,3 +1,4 @@
 python-telegram-bot==11.1.0
 Flask==0.11.1
 PySocks==1.6.8
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
